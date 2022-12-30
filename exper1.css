@@ -1,0 +1,22 @@
+*{ margin:0;
+
+}
+.boxmodel{
+    
+    width: 100px;
+    background-color:rgb(20, 135, 216);
+    border: 0px solid green;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 100px;
+
+}
+body{
+    background-color: aqua;
+    display: flex;
+    
+}
+div {
+    margin-top: 10px;
+    margin-left: 70px;
+}

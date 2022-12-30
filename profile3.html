@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .container{
+        
+            width: 400px;
+            height: 400px;
+            margin-top: 1px;
+            border-radius: 20px;
+        }
+        .box1{
+            width: 400px;
+            height:200px;
+            background-image:url(image2.jfif);
+            background-size: cover;
+        }
+        .box2{
+            width: 400px;
+            height:300px;
+            background-color:azure;
+        }
+        .box3{
+            width:80px;
+            height:80px;
+            background-color: aliceblue;
+        }
+        .namediv{
+            position: relative;
+            top: -200px;
+            left: 25%;
+        }
+        img{
+            height: 100px;
+            position: relative;
+            top: -160px;
+            left: 10%;
+            border-radius: 100%;
+        }
+        .name{
+            position: relative;
+            top: -170px;
+            left:1%;
+
+        }
+        .bio
+        {
+            position: relative;
+            top: -180px;
+            left:10%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+
+        }
+        .details{
+            position: relative;
+            padding: 2px 5px;
+            box-sizing:border-box;
+            margin-left: 10%;
+            width: 80%;
+            top: -375px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            border-top:solid 2px ;
+            border-bottom:solid 2px ;
+            margin-right: 20px;
+            
+        }
+        .det{
+            flex-direction: column;
+           
+        }
+        button{
+            background-color: blue;
+            color:white;
+            border-radius: 30px;
+            width: 150px;
+            border: 0ch;
+            padding: 10px;
+            position:relative;
+            top:-350px;
+            left:28%
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="namediv">
+            <img src="download.jfif" alt="">
+            <h1 class="name">Zendaya Maree</h1>
+           <div class="bio">American Actress</div>
+           
+    
+        </div>
+        <div class="details">
+            <div class="det"><h1>posts</h1>100</div>
+            <div class="det"><h1>followers</h1>90M</div>
+            <div class="det"><h1>following</h1>19</div>
+
+        </div>
+        <button >Follow</button>
+
+        
+    </div>  
+</body>
+</html>
